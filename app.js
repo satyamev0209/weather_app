@@ -82,6 +82,7 @@ function dateManage(datearg) {
     "February",
     "March",
     "April",
+    "May",
     "June",
     "July",
     "August",
@@ -92,7 +93,7 @@ function dateManage(datearg) {
   ];
 
   let year = datearg.getFullYear();
-  let month = months[datearg.getMonth()+1];
+  let month = months[datearg.getMonth()];
   let date = datearg.getDate();
   let day = days[datearg.getDay()];
 
